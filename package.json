@@ -1,0 +1,22 @@
+{
+  "name": "solid-examples",
+  "version": "1.0.0",
+  "description": "A project to learn and show up examples using solid principles",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "solid",
+    "nodejs"
+  ],
+  "author": "Fred Peixoto",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
